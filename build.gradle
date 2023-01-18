@@ -1,0 +1,211 @@
+import org.gradle.api.tasks.testing.logging.TestLogEvent
+import groovy.json.JsonSlurper
+import groovy.json.JsonOutput
+
+plugins {
+    id 'idea'
+    id 'groovy'
+    id 'java'
+    id 'se.thinkcode.cucumber-runner' version '0.0.11'
+    id "com.github.spacialcircumstances.gradle-cucumber-reporting" version "0.1.25"
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group 'fifernandez.test'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "io.cucumber:cucumber-groovy:6.10.4"
+    testImplementation "io.cucumber:cucumber-junit:7.11.0"
+
+    testImplementation "io.rest-assured:rest-assured:5.3.0"
+    testImplementation "io.rest-assured:json-schema-validator:5.3.0"
+
+    testImplementation "io.qameta.allure:allure-cucumber7-jvm:2.20.1"
+    testImplementation 'io.qameta.allure:allure-junit4:2.20.1'
+    testImplementation "com.github.automatedowl:allure-environment-writer:1.0.0"
+
+    testImplementation "commons-io:commons-io:2.11.0"
+    testImplementation "org.json:json:20220320"
+    testImplementation "com.googlecode.json-simple:json-simple:1.1.1"
+    testImplementation "org.slf4j:slf4j-simple:1.7.36"
+
+    testImplementation 'junit:junit:4.13.2'
+}
+
+task moveCategories(type: Copy) {
+    from "src/test/resources/categories.json"
+    into "build/allure-results/"
+}
+
+test {
+    finalizedBy moveCategories
+    useJUnit {}
+
+    testLogging {
+        events TestLogEvent.FAILED, TestLogEvent.PASSED, TestLogEvent.SKIPPED
+        showStandardStreams = true
+    }
+    //systemProperty("cucumber.junit-platform.naming-strategy", "long")
+    systemProperty("cucumber.filter.tags", getTags())
+    //systemProperty("allure.results.directory", "build/allure-results")
+    systemProperties System.properties
+}
+
+allure {
+    adapter {
+        frameworks {
+            junit5 {
+                autoconfigureListeners.set(false)
+            }
+        }
+    }
+}
+
+cucumberReports {
+    outputDir = file('build/reports/')
+    buildId = '0'
+    reports = files('build/reports/cucumber.json')
+    excludeTags = ["@tmsLink=(|\\w+)", "@issue=(|\\w+)", "@dev", "@qa", "@stage", "@prod"]
+    expandAllSteps = false
+}
+
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+cucumber {
+    main = 'io.cucumber.core.cli.Main'
+    tags = getTags()
+    plugin = [
+            "pretty",
+            "json:${reporting.baseDir}/cucumber.json",
+            "junit:${reporting.baseDir}/cucumber.xml",
+            "html:${reporting.baseDir}/cucumber-report.html",
+            "rerun:${reporting.baseDir}/rerun.txt",
+            "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+    ]
+}
+
+tasks.cucumber {
+    finalizedBy generateCucumberReports, moveCategories
+    System.setProperty("allure.results.directory", "build/allure-results")
+}
+
+task runTests() {
+    dependsOn assemble, testClasses
+    finalizedBy generateCucumberReports//, moveCategories
+    doLast {
+        javaexec {
+            mainClass = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            if (System.getProperty("env") != null) {
+                systemProperty "env", System.getProperty("env")
+            }
+            if (System.getProperty("mode") != null) {
+                systemProperty "mode", System.getProperty("mode")
+            }
+            systemProperty "cucumber.filter.tags", getTags()
+            systemProperty "allure.results.directory", "build/allure-results"
+            if (System.getProperty("testRunID") != null) {
+                systemProperty "testRunID", System.getProperty("testRunID")
+                if (System.getProperty("jenkinsLink") != null) {
+                    systemProperty "jenkinsLink", System.getProperty("jenkinsLink")
+                }
+            }
+            args = [
+                    '--plugin', 'pretty',
+                    '--plugin', "json:${reporting.baseDir}/cucumber.json",
+                    '--plugin', "junit:${reporting.baseDir}/cucumber.xml",
+                    '--plugin', "html:${reporting.baseDir}/cucumber-report.html",
+                    '--plugin', "rerun:${reporting.baseDir}/rerun.txt",
+                    '--plugin', "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+                    '--glue', "src/test/resources/features",
+                    '--glue', "support"
+            ]
+        }
+    }
+}
+
+String getTags() {
+    def jsonFile = file("src/test/resources/configurations.json")
+    def parsedJson = new JsonSlurper().parseText(jsonFile.text)
+    String defaultEnvironment = parsedJson.defaultEnvironment
+    List<String> environments = parsedJson.environments
+    String selectedEnv = System.getProperty("env")
+    String tags = ""
+    if (selectedEnv == null) {
+        tags = "@${defaultEnvironment}"
+    } else {
+        selectedEnv = selectedEnv.toLowerCase()
+        if (environments.contains(selectedEnv)) {
+            tags = "@${selectedEnv}"
+        } else {
+            tags = "@${defaultEnvironment}"
+        }
+    }
+    tags += " and not @disable"
+    if (System.getProperty("tags") != null) {
+        tags = "(" + tags + ") and (" + System.getProperty("tags") + ")"
+    }
+    return tags
+}
+
+static boolean isWantedTag(String tag) {
+    List<String> undesiredTags = [
+            "@local", "@dev", "@qa", "@stage", "@prod",
+            "@smoke", "@sanity", "@regression"
+    ]
+    if ((!(tag in undesiredTags)) && (!tag.contains('tmsLink=')) && (!tag.contains('issue='))) {
+        return true
+    }
+    return false
+}
+
+tasks.register('modifyJsonReport') {
+    doLast {
+        println "Cleaning the Json report."
+        //This will clear all the undesired tags from the report
+        def jsonSlurper = new JsonSlurper()
+        def jsonReports = fileTree(dir: "${reporting.baseDir}/").include '**.json'.toString()
+        jsonReports.each { File file ->
+            def parsedJson = jsonSlurper.parseText(file.text)
+            parsedJson.each {
+                it.elements.each { def current ->
+                    ArrayList tags = current.tags
+                    ArrayList aux = tags.clone()
+                    tags.clear()
+                    for (i in 0..aux.size() - 1) {
+                        if (isWantedTag((String) aux[i].name)) {
+                            tags.add(aux[i])
+                        }
+                    }
+                }
+                ArrayList tags = it.tags
+                ArrayList aux = tags.clone()
+                tags.clear()
+                if (!aux.isEmpty()) {
+                    for (i in 0..aux.size() - 1) {
+                        if (isWantedTag((String) aux[i].name)) {
+                            tags.add(aux[i])
+                        }
+                    }
+                }
+            }
+            def jsonOutput = new JsonOutput()
+            def json_str = jsonOutput.toJson(parsedJson)
+            def json_beauty = jsonOutput.prettyPrint(json_str)
+            file.write(json_beauty)
+        }
+    }
+}
+
+tasks.generateCucumberReports {
+    dependsOn modifyJsonReport
+}
