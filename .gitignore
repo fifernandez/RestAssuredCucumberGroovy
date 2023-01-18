@@ -1,0 +1,12 @@
+bin/
+build/
+lib/
+out/
+.allure/
+.gradle/
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+*.log
