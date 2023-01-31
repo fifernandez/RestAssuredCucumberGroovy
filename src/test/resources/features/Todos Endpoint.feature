@@ -7,7 +7,7 @@ Feature: Todos Endpoint
 
 
   @tmsLink=06 @severity=critical
-    @smoke @regression @prod
+  @smoke @prod
   Scenario: Verify status code returned is expected
     Given I do a get to the "todos" endpoint
     Then the returned status code is: "200"
@@ -15,7 +15,7 @@ Feature: Todos Endpoint
 
 
   @tmsLink=07 @severity=normal
-    @smoke @regression @prod
+  @regression @prod
   Scenario: Verify amount of returned items is expected
     Given I do a get to the "todos" endpoint
     Then the returned status code is: "200"

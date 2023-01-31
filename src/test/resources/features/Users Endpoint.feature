@@ -6,17 +6,15 @@ Feature: Users Endpoint
   That the Users Endpoint is working as expected
 
 
-  @tmsLink=01 @severity=critical
-    @smoke @regression
-    @1 @2 @prod
+  @tmsLink=01 @severity=critical @smoke
+  @1 @2 @prod
   Scenario: Verify status code returned is expected
     Given I do a get to the "users" endpoint
     Then the returned status code is: "200"
     And the schema for the "users" endpoint with "200" response code is correct
 
 
-  @tmsLink=02 @severity=normal
-    @smoke @regression
+  @tmsLink=02 @severity=normal @regression
     @2 @3 @prod
   Scenario Outline: Verify amount of returned items is expected
     Given I do a get to the "<Endpoint>" endpoint
@@ -28,9 +26,8 @@ Feature: Users Endpoint
       | users    | 10     |
 
 
-  @tmsLink=03 @severity=minor @issue=123 @Flaky
-  @regression
-  @4 @prod
+  @tmsLink=03 @severity=minor @issue=123 @regression
+  @4 @prod @Flaky
   Scenario: Just a failing test
     Given I do a get to the "users" endpoint just to test with bad parameters
     Then the returned status code is: "205"

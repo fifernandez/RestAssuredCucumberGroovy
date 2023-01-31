@@ -29,15 +29,14 @@ static void setUpAllureEnv() {
     //RestAssured.port = "";
     //RestAssured.basePath = "";
     RestAssured.baseURI = BasePath.getBasePath()
-    String tags = System.getProperty("tags")
+    String tags = System.getProperty("cucumber.filter.tags")
     if (tags == null || tags.isEmpty()) {
         tags = "ALL"
     }
-    String testRun = System.getProperty("testRunID")
     HashMap<String, String> properties = new HashMap<String, String>()
     properties.put("Environment:", Environment.getEnvironment().toUpperCase());
-    if (testRun == null || !testRun.isEmpty()) {
-        properties.put("Test Run:", "https://project.testrail.io/index.php?/runs/view/" + testRun)
+    if (TestRailsLogger.testRunID != null && !TestRailsLogger.testRunID?.isEmpty()) {
+        properties.put("Test Run:", TestRailsLogger.getTestRunLink())
     }
     properties.put("Base url:", BasePath.getBasePath())
     properties.put("Tags:", tags)
@@ -63,6 +62,6 @@ After(1000) { Scenario scenario ->
         scenario.attach("Response: \n" + responseWriter.toString(), "text/plain", "Responses")
         TestRailsLogger.logResultToTestRail(scenario, curl);
     } else {
-        TestRailsLogger.logResultToTestRail(scenario, "");
+        TestRailsLogger.logResultToTestRail(scenario, "")
     }
 }

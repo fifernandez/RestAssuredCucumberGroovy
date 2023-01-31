@@ -9,25 +9,38 @@ import java.lang.reflect.Field
 import java.lang.reflect.Method
 
 class TestRailsLogger {
-    static String baseUrl = ""
-    static String usernameTestRail = ""
-    static String passwordTestRail = ""
+    static String baseUrl
+    static String usernameTestRail
+    static String passwordTestRail
     static APIClient client
-
-    private static final int FAIL_STATE = 5
-    private static final int SUCCESS_STATE = 1
-    private static final String SUCCESS_COMMENT = "This test passed with cucumber automation."
-    private static final String FAILED_COMMENT = "This test failed with cucumber automation."
-    private static String testRunID = System.getProperty("testRunID")
-    private static String jenkinsLink = System.getProperty("jenkinsLink")
+    private static  int SUCCESS_STATE
+    private static  String SUCCESS_COMMENT
+    private static  int FAIL_STATE
+    private static  String FAILED_COMMENT
+    static String testRunID = System.getProperty("testRunID")
+    static String jenkinsLink = System.getProperty("jenkinsLink")
 
     static APIClient testRailApiClient() {
         if (client == null) {
-            client = new APIClient(baseUrl);
-            client.setUser(usernameTestRail);
-            client.setPassword(passwordTestRail);
+            client = new APIClient(baseUrl)
+            client.setUser(usernameTestRail)
+            client.setPassword(passwordTestRail)
         }
-        return client;
+        return client
+    }
+
+    static setConfig(String url, String user, String pass, int successState, String successComment, int failState, String failComment){
+        baseUrl = url
+        usernameTestRail = user
+        passwordTestRail = pass
+        SUCCESS_STATE = successState
+        SUCCESS_COMMENT = successComment
+        FAIL_STATE = failState
+        FAILED_COMMENT = failComment
+    }
+
+    static String getTestRunLink(){
+        return baseUrl + "index.php?/runs/view/" + testRunID
     }
 
     static void logResultToTestRail(Scenario scenario, String curls) {
