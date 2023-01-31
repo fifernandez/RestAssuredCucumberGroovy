@@ -7,7 +7,7 @@ Feature: Posts Endpoint
 
 
   @tmsLink=04 @severity=critical @q
-    @smoke @regression @prod
+  @smoke @prod
   Scenario: Verify status code returned is expected
     Given I do a get to the "posts" endpoint
     Then the returned status code is: "200"
@@ -15,7 +15,7 @@ Feature: Posts Endpoint
 
 
   @tmsLink=05 @severity=normal
-    @smoke @regression @prod
+  @regression @prod
   Scenario: Verify amount of returned items is expected
     Given I do a get to the "posts" endpoint
     Then the returned status code is: "200"

@@ -31,37 +31,11 @@
   },
   "testRail": {
     "baseUrl": "",
-    "userName": "",
-    "password": "",
+    "userName": "sampleName",
+    "password": "samplePass",
     "SUCCESS_STATE": 1,
     "SUCCESS_COMMENT": "This test passed with cucumber automation.",
     "FAIL_STATE": 5,
     "FAILED_COMMENT": "This test failed with cucumber automation."
-  },
-  "endpoints": {
-    "posts": {
-      "private": "null",
-      "public": "/posts"
-    },
-    "comments": {
-      "private": "null",
-      "public": "/comments"
-    },
-    "albums": {
-      "private": "null",
-      "public": "/albums"
-    },
-    "photos": {
-      "private": "null",
-      "public": "/photos"
-    },
-    "users": {
-      "private": "null",
-      "public": "/users"
-    },
-    "todos": {
-      "private": "null",
-      "public": "/todos"
-    }
   }
 }
