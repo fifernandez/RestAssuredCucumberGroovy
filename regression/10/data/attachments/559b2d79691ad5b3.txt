@@ -1,0 +1,365 @@
+Request: 
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/todos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/todos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/todos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/todos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/todos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/todos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/todos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2
+Proxy:			<none>
+Request params:	<none>
+Query params:	q1=1
+				q2=2
+Form params:	<none>
+Path params:	<none>
+Headers:		U=MyAppName
+				Agent=MyAppName
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+ "password": "Testrest@123",
+ "userName": "test_rest"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2
+Proxy:			<none>
+Request params:	<none>
+Query params:	q1=1
+				q2=2
+Form params:	<none>
+Path params:	<none>
+Headers:		U=MyAppName
+				Agent=MyAppName
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+ "password": "Testrest@123",
+ "userName": "test_rest"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2
+Proxy:			<none>
+Request params:	<none>
+Query params:	q1=1
+				q2=2
+Form params:	<none>
+Path params:	<none>
+Headers:		U=MyAppName
+				Agent=MyAppName
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+ "password": "Testrest@123",
+ "userName": "test_rest"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2
+Proxy:			<none>
+Request params:	<none>
+Query params:	q1=1
+				q2=2
+Form params:	<none>
+Path params:	<none>
+Headers:		U=MyAppName
+				Agent=MyAppName
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+ "password": "Testrest@123",
+ "userName": "test_rest"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2
+Proxy:			<none>
+Request params:	<none>
+Query params:	q1=1
+				q2=2
+Form params:	<none>
+Path params:	<none>
+Headers:		U=MyAppName
+				Agent=MyAppName
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+ "password": "Testrest@123",
+ "userName": "test_rest"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2
+Proxy:			<none>
+Request params:	<none>
+Query params:	q1=1
+				q2=2
+Form params:	<none>
+Path params:	<none>
+Headers:		U=MyAppName
+				Agent=MyAppName
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+ "password": "Testrest@123",
+ "userName": "test_rest"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2
+Proxy:			<none>
+Request params:	<none>
+Query params:	q1=1
+				q2=2
+Form params:	<none>
+Path params:	<none>
+Headers:		U=MyAppName
+				Agent=MyAppName
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+ "password": "Testrest@123",
+ "userName": "test_rest"
+}
