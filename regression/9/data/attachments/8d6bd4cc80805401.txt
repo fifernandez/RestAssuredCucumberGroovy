@@ -1,0 +1,119 @@
+Curl 1: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/posts'
+-H 'Accept:*/*' 
+
+Curl 2: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/posts'
+-H 'Accept:*/*' 
+
+Curl 3: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/posts'
+-H 'Accept:*/*' 
+
+Curl 4: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/todos'
+-H 'Accept:*/*' 
+
+Curl 5: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/todos'
+-H 'Accept:*/*' 
+
+Curl 6: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/todos'
+-H 'Accept:*/*' 
+
+Curl 7: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/todos'
+-H 'Accept:*/*' 
+
+Curl 8: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/todos'
+-H 'Accept:*/*' 
+
+Curl 9: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/todos'
+-H 'Accept:*/*' 
+
+Curl 10: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/todos'
+-H 'Accept:*/*' 
+
+Curl 11: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 12: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 13: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 14: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 15: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 16: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 17: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 18: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 19: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 20: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 21: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users'
+-H 'Accept:*/*' 
+
+Curl 22: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2'
+-H 'U:MyAppName' -H 'Agent:MyAppName' -H 'Accept:*/*' -H 'Content-Type:text/plain;charset:ISO-8859-1' 
+-d '{"password":"Testrest@123","userName":"test_rest"}' 
+
+Curl 23: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2'
+-H 'U:MyAppName' -H 'Agent:MyAppName' -H 'Accept:*/*' -H 'Content-Type:text/plain;charset:ISO-8859-1' 
+-d '{"password":"Testrest@123","userName":"test_rest"}' 
+
+Curl 24: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2'
+-H 'U:MyAppName' -H 'Agent:MyAppName' -H 'Accept:*/*' -H 'Content-Type:text/plain;charset:ISO-8859-1' 
+-d '{"password":"Testrest@123","userName":"test_rest"}' 
+
+Curl 25: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2'
+-H 'U:MyAppName' -H 'Agent:MyAppName' -H 'Accept:*/*' -H 'Content-Type:text/plain;charset:ISO-8859-1' 
+-d '{"password":"Testrest@123","userName":"test_rest"}' 
+
+Curl 26: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2'
+-H 'U:MyAppName' -H 'Agent:MyAppName' -H 'Accept:*/*' -H 'Content-Type:text/plain;charset:ISO-8859-1' 
+-d '{"password":"Testrest@123","userName":"test_rest"}' 
+
+Curl 27: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2'
+-H 'U:MyAppName' -H 'Agent:MyAppName' -H 'Accept:*/*' -H 'Content-Type:text/plain;charset:ISO-8859-1' 
+-d '{"password":"Testrest@123","userName":"test_rest"}' 
+
+Curl 28: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2'
+-H 'U:MyAppName' -H 'Agent:MyAppName' -H 'Accept:*/*' -H 'Content-Type:text/plain;charset:ISO-8859-1' 
+-d '{"password":"Testrest@123","userName":"test_rest"}' 
+
