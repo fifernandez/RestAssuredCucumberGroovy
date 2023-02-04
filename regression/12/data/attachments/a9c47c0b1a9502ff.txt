@@ -1,0 +1,5 @@
+Curl 1: 
+curl --location --request GET 'https://jsonplaceholder.typicode.com/users?q1%3D1&q2%3D2'
+-H 'U:MyAppName' -H 'Agent:MyAppName' -H 'Accept:*/*' -H 'Content-Type:text/plain;charset:ISO-8859-1' 
+-d '{"password":"Testrest@123","userName":"test_rest"}' 
+
