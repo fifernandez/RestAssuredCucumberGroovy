@@ -44,10 +44,12 @@ static void setUpAllureEnv() {
     allureEnvironmentWriter(immutableMap, System.getProperty("user.dir") + "/build/allure-results/")
 }
 
-StringWriter requestWriter = new StringWriter()
-StringWriter responseWriter = new StringWriter()
+StringWriter requestWriter
+StringWriter responseWriter
 
 Before() { ->
+    requestWriter = new StringWriter()
+    responseWriter = new StringWriter()
     PrintStream requestCapture = new PrintStream(new WriterOutputStream(requestWriter, "UTF-8"), true)
     PrintStream responseCapture = new PrintStream(new WriterOutputStream(responseWriter, "UTF-8"), true)
     RestAssured.filters(new RequestLoggingFilter(requestCapture), new ResponseLoggingFilter(responseCapture))
@@ -60,7 +62,7 @@ After(1000) { Scenario scenario ->
         scenario.attach("Request: \n" + request, "text/plain", "Requests")
         scenario.attach(curl, "text/plain", "Curls")
         scenario.attach("Response: \n" + responseWriter.toString(), "text/plain", "Responses")
-        TestRailsLogger.logResultToTestRail(scenario, curl);
+        TestRailsLogger.logResultToTestRail(scenario, curl)
     } else {
         TestRailsLogger.logResultToTestRail(scenario, "")
     }
