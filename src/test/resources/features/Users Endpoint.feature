@@ -6,15 +6,21 @@ Feature: Users Endpoint
   That the Users Endpoint is working as expected
 
 
-  @tmsLink=01 @severity=critical
+  @tmsLink=09 @severity=critical
   @prod @smoke
   Scenario: Verify status code returned is expected
     Given I do a get to the "users" endpoint
     Then the returned status code is: "200"
-    And the schema for the "users" endpoint with "200" response code is correct
 
 
-  @tmsLink=02 @severity=normal
+  @tmsLink=10 @severity=critical
+  @prod @smoke
+  Scenario: Verify response schema is correct
+    Given I do a get to the "users" endpoint
+    Then the response schema for the "users-200" endpoint is correct
+
+
+  @tmsLink=11 @severity=normal
     @prod @regression
   Scenario Outline: Verify amount of returned items is expected
     Given I do a get to the "<Endpoint>" endpoint
@@ -26,8 +32,27 @@ Feature: Users Endpoint
       | users    | 10     |
 
 
-  @tmsLink=03 @severity=minor @issue=123
-  @prod @regression @Flaky
-  Scenario: Just a failing test
-    Given I do a get to the "users" endpoint just to test with bad parameters
-    Then the returned status code is: "205"
+  @tmsLink=12 @severity=normal @issue=123
+    @prod @regression
+  Scenario Outline: Verify specific user is returned in the users response
+    Given I do a get to the "users" endpoint
+    Then the returned status code is: "200"
+    And I see the "users" response contains the user: "<user>"
+
+    Examples:
+      | user   |
+      | Kamren |
+      | John   |
+
+
+  @tmsLink=13 @severity=normal @issue=123
+    @prod @regression
+  Scenario Outline: Verify there is a user with a given zipcode
+    Given I do a get to the "users" endpoint
+    Then the returned status code is: "200"
+    And in the "users" response there is a user with the zipcode: "<zipcode>"
+
+    Examples:
+      | zipcode    |
+      | 76495-3109 |
+      | 76495-3101 |
