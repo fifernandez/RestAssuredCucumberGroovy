@@ -11,10 +11,16 @@ Feature: Todos Endpoint
   Scenario: Verify status code returned is expected
     Given I do a get to the "todos" endpoint
     Then the returned status code is: "200"
-    And the schema for the "todos" endpoint with "200" response code is correct
 
 
-  @tmsLink=07 @severity=normal
+  @tmsLink=07 @severity=critical
+  @prod @smoke
+  Scenario: Verify response schema is correct
+    Given I do a get to the "todos" endpoint
+    Then the response schema for the "todos-200" endpoint is correct
+
+
+  @tmsLink=08 @severity=normal
   @prod @regression
   Scenario: Verify amount of returned items is expected
     Given I do a get to the "todos" endpoint
