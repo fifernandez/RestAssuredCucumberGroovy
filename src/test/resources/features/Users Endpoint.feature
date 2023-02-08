@@ -21,18 +21,14 @@ Feature: Users Endpoint
 
 
   @tmsLink=11 @severity=normal
-    @prod @regression
-  Scenario Outline: Verify amount of returned items is expected
-    Given I do a get to the "<Endpoint>" endpoint
+  @prod @regression
+  Scenario: Verify amount of returned items is expected
+    Given I do a get to the "users" endpoint
     Then the returned status code is: "200"
-    And the response contains "<amount>" items
-
-    Examples:
-      | Endpoint | amount |
-      | users    | 10     |
+    And the response contains "10" items
 
 
-  @tmsLink=12 @severity=normal @issue=123
+  @tmsLink=12 @severity=normal @issue=CAL-33
     @prod @regression
   Scenario Outline: Verify specific user is returned in the users response
     Given I do a get to the "users" endpoint
@@ -45,7 +41,7 @@ Feature: Users Endpoint
       | John   |
 
 
-  @tmsLink=13 @severity=normal @issue=123
+  @tmsLink=13 @severity=normal @issue=CAL-33
     @prod @regression
   Scenario Outline: Verify there is a user with a given zipcode
     Given I do a get to the "users" endpoint
