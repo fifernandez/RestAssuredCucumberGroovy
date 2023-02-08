@@ -29,14 +29,14 @@ Feature: Posts Endpoint
     And the response contains "100" items
 
 
-  @tmsLink=04 @severity=minor @issue=123
+  @tmsLink=04 @severity=minor @issue=AAA-33
   @prod @regression
   Scenario: Example when response code is incorrect
     Given I do a get to the "posts" endpoint
     Then the returned status code is: "201"
 
 
-  @tmsLink=05 @severity=minor @issue=123
+  @tmsLink=05 @severity=minor @issue=BBB-33
   @prod @regression
   Scenario: Example when response schema is incorrect
     Given I do a get to the "posts" endpoint

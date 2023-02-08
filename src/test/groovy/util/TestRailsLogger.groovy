@@ -56,7 +56,9 @@ class TestRailsLogger {
                 } else {
                     data.put("status_id", FAIL_STATE)
                     comment += FAILED_COMMENT + "\n"
-                    comment += "Jenkins Link: " + jenkinsLink + "\n"
+                    if (jenkinsLink != null) {
+                        comment += "Jenkins Link: " + jenkinsLink + "\n"
+                    }
                     comment += getError(scenario)
                     comment += "\n"
                     comment += "Last curl: \n"
@@ -93,10 +95,10 @@ class TestRailsLogger {
 
     private static String getCaseId(Scenario scenario) {
         String caseId = ""
-        for (String s : scenario.getSourceTagNames()) {
-            if (s.contains("TestRail")) {
-                String[] res = s.split("(\\(.*?)")
-                caseId = res[1].substring(0, res[1].length() - 1)
+        scenario.getSourceTagNames().find { String s ->
+            if (s.contains("tmsLink=")) {
+                caseId = s.substring(s.lastIndexOf("=") + 1)
+                return true
             }
         }
         return caseId

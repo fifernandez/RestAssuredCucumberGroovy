@@ -34,8 +34,8 @@
     "userName": "sampleName",
     "password": "samplePass",
     "SUCCESS_STATE": 1,
-    "SUCCESS_COMMENT": "This test passed with cucumber automation.",
+    "SUCCESS_COMMENT": "This test passed with automation.",
     "FAIL_STATE": 5,
-    "FAILED_COMMENT": "This test failed with cucumber automation."
+    "FAILED_COMMENT": "This test failed with automation."
   }
 }
