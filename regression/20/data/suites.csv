@@ -1,0 +1,46 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Feb 20 02:42:04 GMT 2023","Mon Feb 20 02:42:04 GMT 2023","153","","Posts Endpoint","","Verify amount of returned items is expected","","Verify amount of returned items is expected","  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected"
+"failed","Mon Feb 20 02:42:04 GMT 2023","Mon Feb 20 02:42:04 GMT 2023","259","","Posts Endpoint","","Example when response schema is incorrect","","Example when response schema is incorrect","  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected"
+"passed","Mon Feb 20 02:42:04 GMT 2023","Mon Feb 20 02:42:05 GMT 2023","169","","Todos Endpoint","","Verify response schema is correct","","Verify response schema is correct","  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected"
+"passed","Mon Feb 20 02:42:05 GMT 2023","Mon Feb 20 02:42:06 GMT 2023","506","","Users Endpoint","","Verify specific user is returned in the users response","","Verify specific user is returned in the users response","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
+"passed","Mon Feb 20 02:42:04 GMT 2023","Mon Feb 20 02:42:04 GMT 2023","209","","Todos Endpoint","","Verify status code returned is expected","","Verify status code returned is expected","  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected"
+"passed","Mon Feb 20 02:42:02 GMT 2023","Mon Feb 20 02:42:03 GMT 2023","1278","","Posts Endpoint","","Verify status code returned is expected","","Verify status code returned is expected","  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected"
+"passed","Mon Feb 20 02:42:05 GMT 2023","Mon Feb 20 02:42:05 GMT 2023","108","","Users Endpoint","","Verify amount of returned items is expected","","Verify amount of returned items is expected","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
+"passed","Mon Feb 20 02:42:05 GMT 2023","Mon Feb 20 02:42:05 GMT 2023","124","","Todos Endpoint","","Verify amount of returned items is expected","","Verify amount of returned items is expected","  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected"
+"failed","Mon Feb 20 02:42:04 GMT 2023","Mon Feb 20 02:42:04 GMT 2023","195","","Posts Endpoint","","Example when response code is incorrect","","Example when response code is incorrect","  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected"
+"passed","Mon Feb 20 02:42:05 GMT 2023","Mon Feb 20 02:42:05 GMT 2023","75","","Users Endpoint","","Verify status code returned is expected","","Verify status code returned is expected","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
+"failed","Mon Feb 20 02:42:06 GMT 2023","Mon Feb 20 02:42:06 GMT 2023","153","","Users Endpoint","","Verify there is a user with a given zipcode","","Verify there is a user with a given zipcode","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
+"failed","Mon Feb 20 02:42:06 GMT 2023","Mon Feb 20 02:42:06 GMT 2023","102","","Users Endpoint","","Verify specific user is returned in the users response","","Verify specific user is returned in the users response","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
+"passed","Mon Feb 20 02:42:03 GMT 2023","Mon Feb 20 02:42:04 GMT 2023","120","","Posts Endpoint","","Verify response schema is correct","","Verify response schema is correct","  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected"
+"passed","Mon Feb 20 02:42:05 GMT 2023","Mon Feb 20 02:42:05 GMT 2023","108","","Users Endpoint","","Verify response schema is correct","","Verify response schema is correct","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
+"passed","Mon Feb 20 02:42:06 GMT 2023","Mon Feb 20 02:42:06 GMT 2023","101","","Users Endpoint","","Verify there is a user with a given zipcode","","Verify there is a user with a given zipcode","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
