@@ -1,0 +1,19 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 20 01:27:50 GMT 2023","Tue Jun 20 01:27:50 GMT 2023","196","","Posts Endpoint","","Verify response schema is correct","","Verify response schema is correct","  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected"
+"passed","Tue Jun 20 01:27:48 GMT 2023","Tue Jun 20 01:27:50 GMT 2023","1517","","Posts Endpoint","","Verify status code returned is expected","","Verify status code returned is expected","  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected"
+"passed","Tue Jun 20 01:27:50 GMT 2023","Tue Jun 20 01:27:50 GMT 2023","162","","Todos Endpoint","","Verify response schema is correct","","Verify response schema is correct","  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected"
+"passed","Tue Jun 20 01:27:50 GMT 2023","Tue Jun 20 01:27:50 GMT 2023","65","","Users Endpoint","","Verify status code returned is expected","","Verify status code returned is expected","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
+"passed","Tue Jun 20 01:27:50 GMT 2023","Tue Jun 20 01:27:50 GMT 2023","102","","Users Endpoint","","Verify response schema is correct","","Verify response schema is correct","  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected"
+"passed","Tue Jun 20 01:27:50 GMT 2023","Tue Jun 20 01:27:50 GMT 2023","244","","Todos Endpoint","","Verify status code returned is expected","","Verify status code returned is expected","  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected"
