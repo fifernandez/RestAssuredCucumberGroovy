@@ -1,0 +1,104 @@
+Response: 
+HTTP/1.1 403 Forbidden
+Date: Mon, 26 Jun 2023 01:53:39 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Permissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+cf-mitigated: challenge
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=808QRK37hHbjJ4akJzQegoHREGP09uZ2TTd0IXd64ZtogH5Y9xhYFCH6cYca6o8lGatWkHJz8VLI1Il2yrhIdBxW%2Buxic4q5uObHjrWw4fp1m%2FtsqtPQAuonyS98MlEF3v4g3VHTi7A099xFI%2FvX"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7dd1d15bcd2e584e-IAD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+<html lang="en-US">
+  <head>
+    <title>Just a moment...</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="robots" content="noindex,nofollow"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="/cdn-cgi/styles/challenges.css" rel="stylesheet"/>
+  </head>
+  <body class="no-js">
+    <div class="main-wrapper" role="main">
+      <div class="main-content">
+        <noscript>
+          <div id="challenge-error-title">
+            <div class="h2">
+              <span class="icon-wrapper"/>
+              <div class="heading-icon warning-icon"/>
+              <span id="challenge-error-text">
+                        Enable JavaScript and cookies to continue
+                    </span>
+            </div>
+          </div>
+        </noscript>
+        <div id="trk_jschal_js" style="display:none;background-image:url('/cdn-cgi/images/trace/managed/nojs/transparent.gif?ray=7dd1d15bcd2e584e')"/>
+        <form enctype="application/x-www-form-urlencoded" method="POST" id="challenge-form" action="/todos?__cf_chl_f_tk=HdfpS99PZjdOYzQYbdgleuNnjT53KLsyMZ02uRTQUUw-1687744419-0-gaNycGzNCrs">
+          <input type="hidden" name="md" value="4QjDKHKpZujc3DW80IZgVcDLd49E0OYQChkL_h6zSs8-1687744419-0-AXRKZWIbFHB62KeTMi-v9Geo6a8UKtPXe42Lbc-vvPpS4kmaAOv2qBhH5E5QzM_V9kifjpQxfspF8BxMmMFSKaWrcTdWR0t87lCs_4qKecUna3lH8gb31xMjhyDb6ZNqEj2Z2i4_70hkTaKGBxKio6SO2fqh5WFQn40cPXRb6-i5S_dyqMIIUhvxY0_f0kdNap00ZwzR_EDLjKoS6FJkNcTHEQMSk1iTS9leuN4_DOPaVhWOI903-QH16CyOnGVvunWxIYyePTytubSY8cbOHukz99YSL8kP5E1ZltNDNFc5RSSGvezzuLcbhbC4rjYe2EAsGqsKVZy_Tw60b5jLHEty9yEssSkrsin8xQCGkzVhyagFvWSuER3J10jRJwVbr4tV1NFkXCT623nEN8HqRAKLVvCMGw61W6RctLh6Z_0wFxCHOx76NyorBnl43khqbLTW9qJXUgy2V136x1Lqrz7ZPyCYdSVwW794Wn6a9lxG0E1K-r1ax2x3fPKgsGERNkMYh-9gcLNiY84JQtRwfgeWoypoA9f8B5IG2WLtPlgY6sqThoYx9qomsM7a3uCLtmrBUeqgWBn_HVGFqRLz89iT6FH_6L3OO50Su5auxfFL4Bqg7v9C4_sehMMhPk6ggC-1FZD91-aX8vCbOifyyND0E9o-yxGUNEXTx5NDI18ctJva2Jup3Xbl5dUlIqCGETd8NxUC4uL0we9CJfcWdrurVW2P6UzPLpaGkxLvhUx7H5ntxmS42k2Cn3VWVJ1ufIQ6LbH32wrFnwgq7zy_lrSE2Dk2SBHLR5aVhgAgTzFhNhaO3DrsDz-N1YnzGHlCcEhmgHcwT8-6iNHobOhYPV6YJxc0OWOykTMpPaoZtbVhLk-VLCSHTtvPOEVzDU2O3Ba9kO29KvG32pka-ASoFtJbvtQzQ3-XhKLwz9MRv08u0ezhd-tKiiF1C0V9aqA5yrjUDROeArm-ZvusGJkEm03N7hkv7K_ER6y2xkTf7SRiiCFu5l1iBQ22I99pCLVdgi4i0ha6Fsijg2S4IqmpR7xXLI1vVKelhNrYj7WEfq-ZifpRiyUYUBOglKjJtjlAeiPoVX8SOJJ_IFrDWayEVVZnGEgUo2bS3tSsVg9dOhFcpQ3cbxnJFhZv-7mm2N4F7pG-Kl98yhf_K4RYoxtQMjaMr8yLWs43dUdwf5xY4JBn6rJAuiFY1_ZB8XrFuJeRXdzNDvAhNH7qV5zwf0ySVRgeXMtNpzUr8zk2Ffy1r0i9MLRanhpZWuaAqkEC9y5FuW7kfcm7aKg87LR850NddJkJmqs5u0WG1ZCwK80JG7sxZ9wRFIrjZRiTVhSLnZptTg8trord4pFsohQGRwHG9IijTt7FuAUAn_4cRa5IOrEhVHbs1C2XNKzqZZq3Ms2GIBSd56bBX3KCPs0Jp7WcFeTpiyZsWpQmujnitL0MvIMDIbakWGQYl3swfMeu33JOD2rnWoWYMTAEHS7JkNJjEefj5WfmnA7yDXDbnqsyycHmud9Tp7PpaMvNi5VSoXgg9CERbNzi9ou40W_2TMpQfU6nd3Fv3bc9MJfa8Df-HCqk9aNvI3yrYCfLcdwjkzt-JekABg6r2DCdU4TIY-tbbxNGPfgDLxOei-QD9tRM_LtVDjxeuBsCaDMn3RSFY91qgzrXLX5UAI-sLcfJBaIDY5D7QP9AnPH9b5iv-19YEf70R9r_sFdpcwYAC12xRpICJFAd89TvFWkp2gvyhvZ3vXPosfj0A0D9Uh3GrSAnbtDEUh7kb_lXG_bcJD0AYTEeKoquMctEdm_l1zS0gnaedAwYxDa_3Gmo-gymDnuwyDZOxwakC6eIw39oU23qsP46bRQ0B5en1wSAvPzydE7QL_b7SL35GCEcDCY-k7PEbQSogwKHGJSE-4NkEmieqQffp3F9CuRaauo6SI8l7HlPU_enPzz6SeIfIfiBbcA8aBHovC76AZ0PKiWTr2hJUfAmtaUPO0ggnndKhA6MPYIKrPztIGopCZYoLi1Fi6qaA-CNnBTRPzrsTdV5w16XaprL6ViC8fW5NnpZUDAIPIomF1eLGl9OD3UsUq8ykohh4yvAbCc32O6s_TUxxS9r44KRh3RKTgneqMsFiNJpcBP5ynLsxaH8XOX3bluHS7PuGVPXc0mm8nvx7EtbBuyaKoaNUR3iswhUqsc2lp4LzzmyAwtZJDrt_VLsoZnsxS2mFCXDJJi-oJC9IF37JauxCwpc2oqDAKA2p-8w1HGgff8FZV2JRVX30sNloKSZzWShMGKsJIyFGMch6TljcVjgpUrPEK2qjGW9NUGeWNVk2Oe6a-zelxEW8a6Srd5CLWu3ET1kcA78y06TfEunafuj_O9f9ON9X-qyuOXJGxGoAhRFWBjGO0H-HXrSrACQFk1sJxJkjNfSW3R-D6Em9vYGNEY58RlVKg3NCBKMQdOVCaHqLgs3bFS_6F4XoMOSuEYnROjA7G4adGht1BFrJzWYJQfzGBg9w1klgZ_cHnIacVmxF0zVR2Zy5nOwpcWBRhtgRDkIUUrGGl8KE9gwFNCkZW4Mleag05fBm9ksjIhfcirP8ylDvpz2CSqsEi2CUGX0BZEqb-2WYxvgGyuDWJDZ01l3942d4qnZPLW3Vmt9hE8XqLli6v4jtbukFZFtuwdivMYq0K1eS8I4VTCzC1L4qL79bw"/>
+        </form>
+      </div>
+    </div>
+    <script>
+    (function(){
+        window._cf_chl_opt={
+            cvId: '2',
+            cZone: 'jsonplaceholder.typicode.com',
+            cType: 'managed',
+            cNounce: '11454',
+            cRay: '7dd1d15bcd2e584e',
+            cHash: 'fd4ee6894be722d',
+            cUPMDTk: "\/todos?__cf_chl_tk=HdfpS99PZjdOYzQYbdgleuNnjT53KLsyMZ02uRTQUUw-1687744419-0-gaNycGzNCrs",
+            cFPWv: 'g',
+            cTTimeMs: '1000',
+            cMTimeMs: '0',
+            cTplV: 5,
+            cTplB: 'cf',
+            cK: "",
+            cRq: {
+                ru: 'aHR0cHM6Ly9qc29ucGxhY2Vob2xkZXIudHlwaWNvZGUuY29tL3RvZG9z',
+                ra: 'QXBhY2hlLUh0dHBDbGllbnQvNC41LjEzIChKYXZhLzE3LjAuNyk=',
+                rm: 'R0VU',
+                d: 'STEa2nAubJq5YDzbyo4Sl4WoV+jKN3nmydRKzBXRmXgtZLYiVU9AYk9Ix5n3xCwZQ3p/D8DET65siQqFYT5R2cWKR4ypEgW15FQL9lWQfGGkPltr0HhvmPHv8kGdzpDWpq5OLdH15HO/a+T0IOP92yZ5dRSV8V4k0dvPv2zS+mQYIto5W45kyaswC4eJF/QbU/TP7SCyJ9WIg7awBfZzsrTFLeMpdSuj6E0CzkDvRc0BqLMvmeHlqkQGvW5Ot9cLCUKcnHa+PylQ3kEeaDA/YGa3LLBsyqiUu7ueb025Sg+dqDdhuB2oSswgzj6t9/Rw0TMrZqoUdUXJvJjIt2HJj2LUaa7p8uQkHb+8CUCVNRB6cDTIaRKr8KhvswYBAzwaN6Z49jlEVUo8L0eQljVNbacOCcd6D8C8I30dcAlDagHSIyK0Xn6f+UjhPua4M4LbmiQQT1nT7X9r6VqAfTmJA0cq0L9XJMGymTSbvALcA0eGzLK3jvJsx9RVZT26tzLbRbampjSarVQMkHJOjxZviJV/uDaNFyHJXz/9rbNCIr7+/67XSLqlV9Wb5i1WEISg',
+                t: 'MTY4Nzc0NDQxOS4xNzAwMDA=',
+                cT: Math.floor(Date.now() / 1000),
+                m: '8UScI3YMmnT5HbGEb2Oig0xtBcD1tp9trO77bvmguFY=',
+                i1: 'jLM/7NnjLDPyenFnKqT8kw==',
+                i2: '27dg5bWtdm5SQ3Kjj5RKKw==',
+                zh: 'aRTrCUXBzVClYQkPLDK7Jzhnhq8KH9QXbX2+1fhJJAo=',
+                uh: 'fGFjrunXXloMur7nPh3aVfQswP0sgGbuKLhlHkMhajs=',
+                hh: 'bij/FTwP5I8BSwgg1oW6LkxxhBfLOff7motYv0y3gmw=',
+            }
+        };
+        var trkjs = document.createElement('img');
+        trkjs.setAttribute('src', '/cdn-cgi/images/trace/managed/js/transparent.gif?ray=7dd1d15bcd2e584e');
+        trkjs.setAttribute('alt', '');
+        trkjs.setAttribute('style', 'display: none');
+        document.body.appendChild(trkjs);
+        var cpo = document.createElement('script');
+        cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/managed/v1?ray=7dd1d15bcd2e584e';
+        window._cf_chl_opt.cOgUHash = location.hash === '' &amp;&amp; location.href.indexOf('#') !== -1 ? '#' : location.hash;
+        window._cf_chl_opt.cOgUQuery = location.search === '' &amp;&amp; location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;
+        if (window.history &amp;&amp; window.history.replaceState) {
+            var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;
+            history.replaceState(null, null, "\/todos?__cf_chl_rt_tk=HdfpS99PZjdOYzQYbdgleuNnjT53KLsyMZ02uRTQUUw-1687744419-0-gaNycGzNCrs" + window._cf_chl_opt.cOgUHash);
+            cpo.onload = function() {
+                history.replaceState(null, null, ogU);
+            };
+        }
+        document.getElementsByTagName('head')[0].appendChild(cpo);
+    }());
+</script>
+  </body>
+</html>
