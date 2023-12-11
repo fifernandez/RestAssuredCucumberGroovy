@@ -1,0 +1,1 @@
+[{"values":["PROD"],"name":"Environment:"},{"values":["https://jsonplaceholder.typicode.com"],"name":"Base url:"},{"values":["(@prod and not @disable) and (@smoke or @regression)"],"name":"Tags:"}]
