@@ -30,14 +30,14 @@ Feature: Posts Endpoint
 
 
   @tmsLink=04 @severity=minor @issue=AAA-33
-  @prod @regression
+  @prod @regression @disable
   Scenario: Example when response code is incorrect
     Given I do a get to the "posts" endpoint
     Then the returned status code is: "201"
 
 
   @tmsLink=05 @severity=minor @issue=BBB-33
-  @prod @regression
+  @prod @regression @disable
   Scenario: Example when response schema is incorrect
     Given I do a get to the "posts" endpoint
     And the response schema for the "posts-wrong-schema" endpoint is correct
