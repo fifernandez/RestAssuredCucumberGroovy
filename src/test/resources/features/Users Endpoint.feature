@@ -38,7 +38,7 @@ Feature: Users Endpoint
     Examples:
       | user   |
       | Kamren |
-      | John   |
+      | Bret   |
 
 
   @tmsLink=13 @severity=normal @issue=CAL-33
@@ -51,4 +51,4 @@ Feature: Users Endpoint
     Examples:
       | zipcode    |
       | 76495-3109 |
-      | 76495-3101 |
+      | 92998-3874 |
