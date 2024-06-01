@@ -1,0 +1,7 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Posts Endpoint","Verify response schema is correct","0","0","1","0","0"
+"","Posts Endpoint","Verify status code returned is expected","0","0","1","0","0"
+"","Users Endpoint","Verify response schema is correct","0","0","1","0","0"
+"","Todos Endpoint","Verify response schema is correct","0","0","1","0","0"
+"","Todos Endpoint","Verify status code returned is expected","0","0","1","0","0"
+"","Users Endpoint","Verify status code returned is expected","0","0","1","0","0"
