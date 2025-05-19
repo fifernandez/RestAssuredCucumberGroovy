@@ -1,0 +1,40 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","103","Verify response schema is correct","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Users Endpoint","Verify response schema is correct",""
+"  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected","150","Verify response schema is correct","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Posts Endpoint","Verify response schema is correct",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","83","Verify amount of returned items is expected","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Users Endpoint","Verify amount of returned items is expected",""
+"  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected","107","Verify amount of returned items is expected","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Todos Endpoint","Verify amount of returned items is expected",""
+"  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected","111","Verify status code returned is expected","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Todos Endpoint","Verify status code returned is expected",""
+"  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected","120","Verify amount of returned items is expected","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Posts Endpoint","Verify amount of returned items is expected",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","87","Verify status code returned is expected","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Users Endpoint","Verify status code returned is expected",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","90","Verify there is a user with a given zipcode","","Mon May 19 03:08:00 GMT 2025","passed","Mon May 19 03:08:00 GMT 2025","","Users Endpoint","Verify there is a user with a given zipcode",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","434","Verify specific user is returned in the users response","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:08:00 GMT 2025","","Users Endpoint","Verify specific user is returned in the users response",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","108","Verify specific user is returned in the users response","","Mon May 19 03:08:00 GMT 2025","passed","Mon May 19 03:08:00 GMT 2025","","Users Endpoint","Verify specific user is returned in the users response",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","106","Verify there is a user with a given zipcode","","Mon May 19 03:08:00 GMT 2025","passed","Mon May 19 03:08:00 GMT 2025","","Users Endpoint","Verify there is a user with a given zipcode",""
+"  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected","1203","Verify status code returned is expected","","Mon May 19 03:07:57 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Posts Endpoint","Verify status code returned is expected",""
+"  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected","119","Verify response schema is correct","","Mon May 19 03:07:59 GMT 2025","passed","Mon May 19 03:07:59 GMT 2025","","Todos Endpoint","Verify response schema is correct",""
