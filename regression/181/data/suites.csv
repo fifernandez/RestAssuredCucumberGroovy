@@ -1,0 +1,40 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","99","Verify specific user is returned in the users response","","Mon Mar 23 04:08:57 UTC 2026","passed","Mon Mar 23 04:08:58 UTC 2026","","Users Endpoint","Verify specific user is returned in the users response",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","84","Verify amount of returned items is expected","","Mon Mar 23 04:08:57 UTC 2026","passed","Mon Mar 23 04:08:57 UTC 2026","","Users Endpoint","Verify amount of returned items is expected",""
+"  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected","133","Verify response schema is correct","","Mon Mar 23 04:08:57 UTC 2026","passed","Mon Mar 23 04:08:57 UTC 2026","","Todos Endpoint","Verify response schema is correct",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","405","Verify specific user is returned in the users response","","Mon Mar 23 04:08:57 UTC 2026","passed","Mon Mar 23 04:08:57 UTC 2026","","Users Endpoint","Verify specific user is returned in the users response",""
+"  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected","117","Verify amount of returned items is expected","","Mon Mar 23 04:08:56 UTC 2026","passed","Mon Mar 23 04:08:56 UTC 2026","","Posts Endpoint","Verify amount of returned items is expected",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","105","Verify response schema is correct","","Mon Mar 23 04:08:57 UTC 2026","passed","Mon Mar 23 04:08:57 UTC 2026","","Users Endpoint","Verify response schema is correct",""
+"  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected","109","Verify amount of returned items is expected","","Mon Mar 23 04:08:57 UTC 2026","passed","Mon Mar 23 04:08:57 UTC 2026","","Todos Endpoint","Verify amount of returned items is expected",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","92","Verify there is a user with a given zipcode","","Mon Mar 23 04:08:58 UTC 2026","passed","Mon Mar 23 04:08:58 UTC 2026","","Users Endpoint","Verify there is a user with a given zipcode",""
+"  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected","141","Verify response schema is correct","","Mon Mar 23 04:08:56 UTC 2026","passed","Mon Mar 23 04:08:56 UTC 2026","","Posts Endpoint","Verify response schema is correct",""
+"  As a developer
+  I want to be sure
+  That the Todos endpoint is working as expected","116","Verify status code returned is expected","","Mon Mar 23 04:08:56 UTC 2026","passed","Mon Mar 23 04:08:57 UTC 2026","","Todos Endpoint","Verify status code returned is expected",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","90","Verify status code returned is expected","","Mon Mar 23 04:08:57 UTC 2026","passed","Mon Mar 23 04:08:57 UTC 2026","","Users Endpoint","Verify status code returned is expected",""
+"  As a developer
+  I want to be sure
+  That the Posts endpoint is working as expected","1173","Verify status code returned is expected","","Mon Mar 23 04:08:55 UTC 2026","passed","Mon Mar 23 04:08:56 UTC 2026","","Posts Endpoint","Verify status code returned is expected",""
+"  As a developer
+  I want to be sure
+  That the Users Endpoint is working as expected","107","Verify there is a user with a given zipcode","","Mon Mar 23 04:08:58 UTC 2026","passed","Mon Mar 23 04:08:58 UTC 2026","","Users Endpoint","Verify there is a user with a given zipcode",""
